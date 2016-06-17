@@ -14,6 +14,13 @@ namespace XamarinHackDay
             InitializeComponent();
 
             MainPage = new XamarinHackDay.MainPage();
+
+        }
+
+        protected override void OnAppLinkRequestReceived(Uri uri)
+        {
+            base.OnAppLinkRequestReceived(uri);
+
         }
 
         protected override void OnStart()

@@ -4,8 +4,6 @@
              xmlns:local="clr-namespace:XamarinHackDay"
              x:Class="XamarinHackDay.MainPage">
 
-  <Label Text="Welcome to Xamarin Forms!"
-           VerticalOptions="Center"
-           HorizontalOptions="Center" />
+  <Button Text="Register App Links" Clicked="ButtonClicked" />
 
 </ContentPage>
